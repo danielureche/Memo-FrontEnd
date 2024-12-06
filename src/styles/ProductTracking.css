@@ -1,0 +1,97 @@
+/* Contenedor principal */
+.tracking-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* Botones */
+.tracking-container .btn-refresh {
+    border: 1px solid #e9ae18;
+    color: #e9ae18;
+    font-size: 1rem;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.tracking-container .btn-refresh:hover {
+    background-color: #e9ae18;
+    color: white;
+    border-color: #e9ae18;
+}
+
+/* Título principal */
+.tracking-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+/* Línea de progreso */
+.tracking-container  .tracking-progress {
+    height: 18px;
+    border-radius: 4px;
+}
+
+.tracking-container  .progress-bar {
+    background-color: #e9ae18;
+}
+
+.tracking-container .progress-steps {
+    font-size: 0.85rem;
+    color: #bbb;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.progress-steps .step {
+    text-align: center;
+    flex: 1;
+}
+
+.progress-steps .completed {
+    color: #e9ae18;;
+}
+
+/* Detalle de compra */
+.purchase-details {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.details-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e9ae18;;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.purchase-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.purchase-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.purchase-item.total {
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+}

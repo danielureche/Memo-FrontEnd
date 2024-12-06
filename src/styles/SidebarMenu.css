@@ -1,0 +1,61 @@
+/* SidebarMenu.css */
+
+/* Color por defecto de los enlaces */
+.nav-link {
+    color: black !important; /* Establece el color negro */
+}
+
+/* Color cuando se pasa el mouse sobre el enlace */
+.nav-link:hover {
+    color: #E9AE18 !important; /* Cambia a color cuando se pasa el mouse */
+} 
+
+/* Color de los enlaces dentro del Accordion */
+.accordion-button {
+    color: black !important; /* Establece el color negro */
+}
+
+.accordion-button:hover {
+    background-color: orange !important; /* Cambia a color cuando se pasa el mouse */
+}
+
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+/* También puedes cambiar el color del texto al presionar (active) */
+.nav-link.active, .accordion-button:active {
+    color: #E9AE18 !important; /* Cambia al color especificado al estar activo */
+}
+
+
+/* Asegura que el color de fondo del Accordion.Header no cambie */
+.accordion-button {
+    background-color: transparent !important; /* Fondo transparente */
+    color: black !important; /* Color de texto negro */
+    border-color: none !important; /* Elimina el borde predeterminado */
+}
+
+/* Cuando el Accordion se expanda, evitar el cambio de borde y fondo */
+.accordion-button:not(.collapsed) {
+    background-color: #E9AE18  !important; /* Fondo transparente */
+    color: black !important; /* Color de texto negro */
+    border: none !important; /* Borde transparente */
+}
+
+/* Asegura que el cuerpo del Accordion tenga un fondo transparente */
+.accordion-body {
+    background-color: transparent !important; /* Fondo transparente */
+    color: black !important; /* Color de texto negro */
+}
+
+.custom-icon {
+    color: #E9AE18; /* Cambia el color del icono */
+    transition: color 0.3s ease; /* Transición suave para efectos */
+}
+
+.custom-icon:hover {
+    color: #FF9900; /* Cambia el color al pasar el cursor */
+}
+

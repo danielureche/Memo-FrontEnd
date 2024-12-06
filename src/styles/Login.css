@@ -1,0 +1,63 @@
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    height: 40px;
+}
+
+button[type="submit"]:hover {
+    background-color: darkorange;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-input {
+    flex: 1;  /* Hace que el input ocupe el espacio disponible */
+    padding-right: 40px; /* Espacio para el ícono */
+}
+
+.password-toggle-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.password-toggle-btn:hover {
+    transform: translateY(-50%);
+}
+.separator-container hr {
+    border-top: 1px solid #ddd;
+    width: 100%;
+    margin: 0;
+}
+
+.separator-container hr {
+    border-top: 1px solid #ddd;
+    width: 100%;
+    margin: 0;
+}
+
+.separator-container .mt-3 {
+    font-size: 14px;
+}
+
+.separator-container .text-primary {
+    color: #0d6efd; /* Asegúrate de que el color sea el adecuado para el enlace */
+}
+
+.separator-container .ms-2 {
+    margin-left: 5px;
+}
+

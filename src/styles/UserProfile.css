@@ -1,0 +1,79 @@
+/* Imagen de perfil */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #e9ae18;
+    padding: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tarjeta general */
+.profile-card {
+    border-radius: 20px;
+}
+
+/* Botones */
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #e9ae18;
+}
+
+/* Texto y separaciones */
+.profile-card h4 {
+    font-size: 1.5rem;
+}
+
+.profile-card p {
+    margin-bottom: 0.5rem;
+}
+
+
+/* Botón Cambiar Foto */
+.card .change-photo-btn {
+    background-color: #ffffff;
+    border: 1px solid #e9ae18;
+    color: #e9ae18;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.card .change-photo-btn:hover {
+    background-color: #e9ae18;
+    border: 1px solid #e9ae18;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Botones tipo Link */
+.card .link-btn {
+    color: #e9ae18;
+    transition: color 0.3s ease;
+}
+
+.card .link-btn:hover {
+    color: #e9ae18;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.card .update-info-btn{
+    background-color: #ffffff;
+    border: 1px solid #e9ae18;
+    color: #e9ae18;
+}
+
+.card .update-info-btn:hover{
+    background-color: #e9ae18;
+    border: 1px solid #e9ae18;
+    color: #ffffff;
+}
+
+.card .main-info{
+    font-weight: 500;
+}

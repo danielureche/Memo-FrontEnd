@@ -1,0 +1,37 @@
+.footer{
+    background-color: #E9AE18;
+}
+
+.footer a {
+    text-decoration: none; /* Eliminar el subrayado de los enlaces */
+    transition: color 0.3s; /* Transición suave para el hover */
+}
+
+.footer a:hover {
+    color: #E9AE18; /* Color dorado al hacer hover */
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+.footer hr {
+    border-top: 1px solid #E9AE18;
+    margin-top: 20px;
+}
+
+.footer .ms-3 {
+    margin-left: 12px;
+}
+
+/* Asegura que el contenido esté centrado en pantallas pequeñas */
+@media (max-width: 576px) {
+    .footer p {
+        text-align: center;
+    }
+}

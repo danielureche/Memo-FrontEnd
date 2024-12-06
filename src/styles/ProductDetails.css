@@ -1,0 +1,51 @@
+.card .form-control{
+    text-align: center;
+    width: 40px;
+}
+
+.card input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.card button[disabled]{
+    background-color: #E9AE18;
+    border-color: #E9AE18 ;
+}
+
+.card .button-minus{
+    background-color: #E9AE18;
+    border-color: #E9AE18 ;
+    color: white;
+}
+
+.card .button-plus{
+    background-color: #E9AE18;
+    border-color: #E9AE18 ;
+    color: white;
+}
+
+.card .button-minus:hover{
+    background-color: orange;
+    border-color: #E9AE18 ;
+    color: white;
+}
+
+.card .button-plus:hover{
+    background-color: orange;
+    border-color: #E9AE18 ;
+    color: white;
+}
+
+
+
+.card .add-cart{
+    border: none;
+    background-color: #E9AE18;
+    
+}
+
+.card .add-cart:hover{
+    background-color: orange;
+}

@@ -1,0 +1,9 @@
+.product-card .btn-view{
+    background-color: #E9AE18;
+    border-color: #E9AE18;
+}
+
+.product-card .btn-view:hover{
+    background-color: orange;
+    border-color: orange;
+}
